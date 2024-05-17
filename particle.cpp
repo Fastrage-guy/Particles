@@ -10,9 +10,9 @@ Particle::Particle() {
     vx = 0;
     vy = 0;
     vz = 0;
-    r = 0;
-    g = 0;
-    b = 0;
+    r = 255;
+    g = 255;
+    b = 255;
 }
 
 Particle::Particle(float x, float y) {
@@ -22,9 +22,9 @@ Particle::Particle(float x, float y) {
     this->vx = 0;
     this->vy = 0;
     this->vz = 0;
-    this->r = 0;
-    this->g = 0;
-    this->b = 0;
+    this->r = 255;
+    this->g = 255;
+    this->b = 255;
 }
 
 Particle::Particle(float x, float y, float z) {
@@ -34,9 +34,9 @@ Particle::Particle(float x, float y, float z) {
     this->vx = 0;
     this->vy = 0;
     this->vz = 0;
-    this->r = 0;
-    this->g = 0;
-    this->b = 0;
+    this->r = 255;
+    this->g = 255;
+    this->b = 255;
 }
 
 void Particle::update(float dt, bool is3D) {

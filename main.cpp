@@ -82,7 +82,7 @@ int main(int argc, char** argv){
         }
 
         // Rendering
-        SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+        SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
         SDL_RenderClear(renderer);
 
         for (Particle &i : particles) {
